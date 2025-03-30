@@ -1,3 +1,6 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+//    ArchivesMenu().output()
+    val archiveMenu = ArchivesMenu()
+    archiveMenu.output()
+    println("До свидания!")
 }
